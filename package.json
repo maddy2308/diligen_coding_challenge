@@ -2,14 +2,13 @@
   "name": "diligen_challenge",
   "version": "0.0.1",
   "description": "This is a challenege to create a vanilla script based web app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "maddy2308",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.1"
   },
-  "start":"node server.js"
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
