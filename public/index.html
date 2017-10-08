@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diligen Challenge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Diligent Word finder</h1>
+    <div class="form-inline">
+        <div class="form-group">
+            <label for="docId">Document Number:</label>
+            <input type="text" class="form-control" id="docId">
+        </div>
+        <button type="button" class="btn btn-default" id="request_doc">Fetch Document</button>
+    </div>
+
+    <hr>
+    <div class="row">
+        <div class="col-xs-2"><label>Ignore Case when search</label></div>
+        <div class="col-xs-1"><input id="ignoreCase" type="checkbox" checked></div>
+    </div>
+    <div class="panel panel-default" id="content_panel">
+        <div class="panel-heading">Content</div>
+        <div class="panel-body">
+            <div class="show_doc"> DATA ...</div>
+        </div>
+    </div>
+</div>
+<script src="./js/service/DocumentService.js"></script>
+<script src="./js/service/HighlightService.js"></script>
+<link rel="stylesheet" href="./css/highlight.css">
+</body>
+</html>
