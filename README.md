@@ -1,6 +1,6 @@
 # diligent_coding_challenge
 
-DEMO: https://diligent-coding-challenge.herokuapp.com/index.html
+DEMO: https://diligen-coding-challenge.herokuapp.com/index.html
 
 This is the coding challenge by diligent
 
