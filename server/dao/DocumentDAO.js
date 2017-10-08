@@ -1,6 +1,6 @@
 (function () {
     module.exports = function () {
-        const DocumentModel = require("../Model/DocumentModel").schema;
+        const DocumentModel = require("../model/DocumentModel").schema;
         const fs = require("fs");
         return {
             getDocument: getDocument,
