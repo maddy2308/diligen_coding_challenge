@@ -5,8 +5,10 @@ app.get('/', function (req, res) {
     res.send('Hello World!')
 });
 
-app.listen(3000, function () {
-    console.log('Diligen app listening on port 3000!')
+/*Run the server.*/
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+    console.log( "Listening on  server_port " + port )
 });
 
 require("./server/app")(app);
