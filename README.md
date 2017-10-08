@@ -1,5 +1,9 @@
 # diligent_coding_challenge
+
+DEMO: https://diligent-coding-challenge.herokuapp.com/index.html
+
 This is the coding challenge by diligent
+
 
 To run this code locally clone the repo in your local environment and run the command, after you have CD to the cloned directory
 
@@ -13,3 +17,9 @@ There is an assumption made that the data fetched from the mock JSON data is fet
 do an Async load (possibly from a Database/local file system). This would mean that the backend-service would need to handle 
 PROMISE elegantly. One last assumption is made that with an id only one document will be received and so front end always 
 load the first document in the array received.
+
+### Todos
+
+ - Write Test cases
+ - Add option of accessing the DATA and app based on login.
+ - Implement Async based fetching from server.
